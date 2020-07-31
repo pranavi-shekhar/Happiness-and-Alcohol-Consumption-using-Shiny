@@ -1,0 +1,42 @@
+---
+title: "<font color=\"Crimson\">Happiness Levels and Alcohol Consumption - Shiny</font>"
+author: "Pranavi Shekhar"
+date: "31/07/2020"
+output: ioslides_presentation
+---
+<style>
+h2{color : CornflowerBlue}
+p{color: Gray; font-family : "Calibri"}
+
+</style>
+
+
+## **About the App**
+
+This app uses the ***<font color=\"Crimson\">Happiness and Alcohol Consumption</font>*** data set obtained from **Kaggle** to build a linear regression model for observing the average happiness score of individuals across 122 countries, as a function of consumption of different alcoholic beverages as well as the Human Development Index(HDI).
+
+The plots created are not particularly useful for making predictions, but can be used for observing and understanding the trends in and the structure of the data set.
+
+[Link to Application on Shiny Server](https://pranavi-shekhar.shinyapps.io/Happiness-and-Alcohol-Consumption/?_ga=2.97795935.1517098402.1596159125-239562103.1596159125)
+
+## **Description of the Data**
+
+- This data set aims to explore the happiness levels of individuals based off of their **<font color=\"Crimson\">per capita consumption of alcoholic beverages</font>** , **<font color=\"Crimson\">Human Development Index(HDI)</font>** and GDP.  
+
+- Happiness Score is measured on a **<font color=\"Crimson\">scale of 1-10</font>** with 10 being the happiest. The data set shows the **<font color=\"Crimson\">average</font>** happiness score indicated by the country's residents.  
+
+- The HDI used is provided by the United Nations. Further, the region and hemisphere of each country has been specified. The unit for per capita consumption of beverages is **Liters**. Again, the country wise average is shown.  
+
+- More details regarding the data set can be found **[here](https://www.kaggle.com/marcospessotto/happiness-and-alcohol-consumption)**
+
+## **View the Data**
+
+```{r,comment=""}
+data = read.csv("alcohol.csv",header = TRUE)
+head(data,5)
+```
+
+
+## **Screenshot of the App**
+
+![](plot1.jpg){ width=100%}

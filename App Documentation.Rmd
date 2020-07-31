@@ -1,0 +1,70 @@
+---
+title: "**Happiness Levels and Alcohol Consumption - Shiny**"
+author: "Pranavi Shekhar"
+date: "31/07/2020"
+output: html_document
+---
+
+## **About the App**
+
+This app uses the ***Happiness and Alcohol Consumption*** data set obtained from **Kaggle** to build a linear regression model for observing the average happiness score of individuals across 122 countries, as a function of consumption of different alcoholic beverages as well as the Human Development Index(HDI).
+
+The plots created are not particularly useful for making predictions, but can be used for observing and understanding the trends in and the structure of the data set.
+
+## **Viewing the Data**
+
+- The app has a **Data** tab in which users can take a look at the data set. A description of the data is also available in the side bar.  
+
+- The user can choose the range of rows to display via a slider. For instance, setting the range as 2-30 will display the rows numbered 2-30. The data set contains a maximum of 122 rows. 
+
+- There is an option to filter the data by ***Region*** or ***Hemisphere***. Selecting this will show only entries in the *Region*/*Hemisphere* specified.  
+
+- The user can also select the range of happiness scores they wish to view using the slider given. The maximum score is 7.526 and minimum is 3.069 (out of 10).
+
+## **Viewing the Plot**
+
+- All the plots generated are based on Plotly and can be viewed in the **Plots** tab.  
+
+- The X axis of the plots can be either one of three alcoholic beverages - Beer, Spirits or Wine - or the Human Development Index (HDI). The plot basically shows the dependence of happiness score on the selected X Axis metric. 
+
+- Each plot can be **categorized** based on ***Region*** or ***Hemisphere***. This can be selected in the *Group points By* section. This results in the points being colored by the region/hemisphere they belong to. Selecting *None* in the *Group points By* section gives a basic, **un-categorized** plot.  
+
+- In the **un-categorized** plot, we can **Select** any group of points and obtain a linear regression model, with a slope and intercept, for the selected points. The slope and intercept will be displayed on the side bar.  
+
+- For plots **categorized** by region/hemisphere the category-wise regression lines are automatically plotted. **Hovering** over any line/point shows the corresponding slope and intercept for that particular region/hemisphere.  
+
+- Display of the lines and the legend entries can be toggled using the relevant check boxes. For viewing specific groups of points/lines, Plotly's interactive interface can be taken advantage of (double-clicking the legend entries isolates points, selecting a line isolates it).  
+
+- Selection is not valid for categorized plots and hovering does not produce any results for un-categorized plots as it has no meaning.  
+
+## **Application Screenshots**
+
+##  
+##  
+
+#### **1. Viewing the Data**
+
+![](data.jpg)
+
+## 
+#### **2. Un-Categorized Plot**
+
+![](plot1.jpg)
+
+##      
+#### **3. Regression Line for** ***Selected*** **points (selected using Box Select)**
+
+![](plot2.jpg)
+
+##      
+#### **4. Categorized Plot**
+
+![](plot3.jpg)
+
+##   
+#### **5. Categorized Plot with** ***Hover***
+
+![](plot4.jpg)
+
+
+

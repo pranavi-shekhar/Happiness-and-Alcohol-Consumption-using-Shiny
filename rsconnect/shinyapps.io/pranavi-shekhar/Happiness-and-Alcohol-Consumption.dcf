@@ -1,0 +1,13 @@
+name: Happiness-and-Alcohol-Consumption
+title: Happiness-and-Alcohol-Consumption
+username:
+account: pranavi-shekhar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2629749
+bundleId: 3457840
+url: https://pranavi-shekhar.shinyapps.io/Happiness-and-Alcohol-Consumption/
+when: 1596174881.05399
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: App-pitch.html|App pitch.Rmd
